@@ -41,10 +41,10 @@ export default function SideNavBar() {
         </div>
       </div>
       <div className="clipper-left">
-        <div className="loader-text">PRIMECARE</div>
+        <div className="loader-text">KEANVIC</div>
       </div>
       <div className="clipper-right">
-        <div className="loader-text">PROPERTIES</div>
+        <div className="loader-text">CLOTHINGS</div>
       </div>
     </>
   );

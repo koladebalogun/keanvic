@@ -5,3 +5,9 @@
   font-size: 12px;
   gap: 40px;
 }
+
+.footer a{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}

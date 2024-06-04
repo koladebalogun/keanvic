@@ -1,35 +1,20 @@
 {
   "services": [
     {
-      "title": "Income Driven Property Management",
-      "items": [
-        "We guarantee landlords a steasy income stream",
-        "We remove the uncertainty and hassle of property management."
-      ],
-      "src":"ab2.jpg"
+      "title": "Our Agbada",
+      "src":"ab1.jpg"
     },
     {
-      "title": "Pro-active Maintenance",
-      "items": [
-        "Regular property inspections and timely maintenance.",
-        "Swift resolution of tenant concerns and property issues.",
-        "Upkeep and enhancements to maintain property value."
-      ],
-      "src": "ab2.jpg"
+      "title": "Our Suits",
+      "src": "ab3.jpg"
     },
     {
-      "title": "Financial Optimization",
-      "items": ["Transparent and guaranteed rental income"],
-      "src": "ab2.jpg"
+      "title": "Our Kaftan",
+      "src": "ab4.jpg"
     },
     {
-      "title": "Client-Centric Approach",
-      "items": [
-        "Tailored solutions to meet your unique property goals.",
-        "Open and regular communication to keep you informed.",
-        "Dedicated support for a stress-free experience."
-      ],
-      "src": "ab2.jpg"
+      "title": "Our Wedding Styling",
+      "src": "ab5.jpg"
     }
   ]
 }

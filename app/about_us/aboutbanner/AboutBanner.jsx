@@ -81,16 +81,16 @@ export default function AboutBanner() {
                 </div>
               </h1>
               <p>
-                At PrimeCare Properties, we redefine the property management
-                experience by expertly handling properties, ensuring optimal
-                occupancy rates, and delivering results. Our dedicated team
-                leverages market insights and cutting-edge strategies to unlock
-                the full potential of every property we handle.
+                At Keanvic Clothings, we redefine the meaning of Fashion by
+                expertly unlocking the power of confidence with our carefully
+                crafted attires, we help you step into effortless elegance with
+                our stunning collection. Nothing makes picture perfect moments
+                than a perfectly tailored custom piece from Keanvic Clothings.
               </p>
               <div className={styles.btn_row}>
-                <Link href="/properties">
+                <Link href="/services">
                   <button className={styles.explore_button}>
-                    Explore our properties
+                    Explore our Clothes
                     <div className={styles.arrow_icon}>
                       <img src="/arrow.svg" alt="row" />
                     </div>
@@ -105,7 +105,7 @@ export default function AboutBanner() {
               className={styles.hero_images_inner}
             >
               <div className={`${styles.hero_image} ${styles.girl}`}>
-                <img src="about_us.jpg" alt="intro image" />
+                <img src="aboutus.png" alt="intro image" />
               </div>
             </div>
           </div>

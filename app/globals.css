@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body{
+  background-color: #000;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -19,7 +23,7 @@
 
 .sidebar-nav a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .sidebar-nav {
@@ -27,7 +31,7 @@
   width: 10.5vw;
   height: 100%;
   padding: 4em 0;
-  background: #fff;
+  background: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,7 +44,7 @@
   left: 10vw;
   height: 100vh;
   width: 40vw;
-  background: #fff;
+  background: #000;
   overflow: clip;
   clip-path: inset(0 0 0 0);
   display: flex;
@@ -53,6 +57,7 @@
   padding: 4em;
   display: flex;
   align-items: center;
+  color: #fff;
 }
 
 .clipper-right {
@@ -61,7 +66,7 @@
   right: 0;
   height: 100vh;
   width: 50vw;
-  background: #fff;
+  background: #000;
   overflow: clip;
   clip-path: inset(0 0 0 0);
   display: flex;
@@ -100,8 +105,6 @@
   display: none;
 }
 
-
-
 .site-content a,
 .menu-toggle {
   text-decoration: none;
@@ -123,7 +126,7 @@
 .site-header-title h1 {
   font-size: 50px;
   text-decoration: underline;
-  text-decoration-color: #000085;
+  text-decoration-color: #fff;
   letter-spacing: 3px;
 }
 
@@ -131,7 +134,7 @@
   font-size: 25px;
   margin-top: 15px;
   text-decoration: underline;
-  text-decoration-color: #000085;
+  text-decoration-color: #fff;
   letter-spacing: 3px;
 }
 
@@ -142,13 +145,13 @@
   text-transform: uppercase;
 }
 
-.site-header-content button{
+.site-header-content button {
   margin-top: 40px;
-  border: 1px solid #000085;
+  border: none;
   cursor: pointer;
   padding: 10px;
-  color: #fff;
-  background: #000085;
+  color: black;
+  background: #fff;
 }
 
 .pre-loader {
@@ -191,11 +194,11 @@
     left: 0;
     width: 50vw;
   }
-  
-   .site-header-title h1{
+
+  .site-header-title h1 {
     position: absolute;
     top: -370px;
-  color: rgb(115, 115, 115);
+    color: rgb(115, 115, 115);
     font-weight: 400;
   }
 
@@ -207,18 +210,24 @@
     padding: 10px;
     position: absolute;
     bottom: -400px;
-      color: rgb(115, 115, 115);
-
+    color: rgb(115, 115, 115);
   }
 }
 
 @media only screen and (max-width: 500px) {
+
+  .site-header{
+    position: absolute;
+    top: 50%;
+  }
   .site-header-title h1 {
-    font-size: 25px;
+    font-size: 40px;
+    text-align: center;
   }
 
   .site-header-title h3 {
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
   }
 
   .site-logo img {
@@ -226,13 +235,13 @@
     height: 70px;
     /* z-index: 10; */
   }
-  
-  .site-header-title h1{
-    position: absolute;
-    top: -200px;
-      color: rgb(115, 115, 115);
 
+  .site-header-title h1 {
+    position: absolute;
+    top: -150px;
+    text-decoration: none;
     font-weight: 400;
+    color: #fff;
   }
 
   .site-header-content {
@@ -242,8 +251,8 @@
     font-size: 12px;
     padding: 10px;
     position: absolute;
-    bottom: -280px;
-      color: rgb(115, 115, 115);
-
+    bottom: -250px;
+    color: #fff;
+    /* color: rgb(115, 115, 115); */
   }
 }

@@ -19,10 +19,10 @@ export default function FirstServiceTemplate({ data }) {
       <div className={styles.content_inner}>
         <div className={styles.content_inner_text} data-aos="fade-up">
           <h4>{data.title}</h4>
-          <ul>
+          {/* <ul>
             <li>{data.items[0]}</li>
             <li>{data.items[1]}</li>
-          </ul>
+          </ul> */}
         </div>
         <div data-aos="fade-up">
           <img src={data.src} alt="" />

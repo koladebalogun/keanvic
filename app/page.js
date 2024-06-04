@@ -31,25 +31,25 @@ export default function Home() {
       <div className="site-content">
         <div className="video-container" id="video-container">
           <video autoPlay loop muted playsInline className="video">
-            <source src="/intro.mp4" />
+            <source src="/intros.mp4" />
           </video>
         </div>
 
         <div className="site-header">
           <div className="site-header-title">
-            <h1>Welcome to PrimeCare Properties</h1>
-            <h3>Your Prime Property Partner</h3>
+            <h1>Welcome to Keanvic Clothings</h1>
+            <h3>Your Celebrity Designer</h3>
           </div>
 
           <div className="site-header-content">
-            <p>
-              Discover PrimeCare Properties, your gateway to effortless and
-              profitable property investments through our innovative solutions.
-            </p>
+            <p>At Keanvic Clothings, We design dreams, not just clothes! .</p>
 
-            <Link href="#">
-              <button>Book a Property</button>
-            </Link>
+            <a
+              href="https://www.instagram.com/keanvic_clothings?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+            >
+              <button>Contact us</button>
+            </a>
           </div>
         </div>
       </div>

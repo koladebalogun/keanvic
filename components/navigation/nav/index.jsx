@@ -12,10 +12,10 @@ const navItems = [
     title: "Home",
     href: "/",
   },
-  {
-    title: "Properties",
-    href: "/properties",
-  },
+  // {
+  //   title: "Properties",
+  //   href: "/properties",
+  // },
   {
     title: "Services",
     href: "/services",
@@ -24,10 +24,10 @@ const navItems = [
     title: "About",
     href: "/about_us",
   },
-  {
-    title: "Contact",
-    href: "/contact_us",
-  },
+  // {
+  //   title: "Contact",
+  //   href: "/contact_us",
+  // },
 ];
 
 export default function Index() {

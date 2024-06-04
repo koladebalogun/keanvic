@@ -21,11 +21,11 @@ export default function SecondServiceTemplate({ data }) {
         </div>
         <div data-aos="fade-up">
           <h4>{data.title}</h4>
-          <ul>
+          {/* <ul>
             <li>{data.items[0]}</li>
             <li>{data.items[1]}</li>
             <li>{data.items[2]}</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

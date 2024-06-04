@@ -4,9 +4,9 @@
 
 .list_intro h3 {
   font-size: 38px;
-  color: rgb(115, 115, 115);
+  color: #fff;
   text-decoration: underline;
-  text-decoration-color: #000085;
+  text-decoration-color: orangered;
 }
 
 .content {
